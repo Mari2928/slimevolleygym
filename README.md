@@ -80,4 +80,4 @@ The score against PPO is unavailable, as `stable_baselines` was outdated due to 
 | NEAT                                                                           | -1.854 ± 1.745  | — | -2.155 ± 1.5 |  -1.519 ± 1.349 | —         | [link](https://github.com/hardmaru/slimevolleygym/blob/master/TRAINING.md)
 | [Add Method](https://github.com/hardmaru/slimevolleygym/edit/master/README.md) |  |  | |
 
-It is interesting to note that while NEAT did not perform well against the baseline policy compared to GA, it achieves a better score if evaluated against it that outperforms baseline.
+Interestingly, while NEAT underperformed against the baseline compared to GA, it scored better in NEAT vs GA than in NEAT vs baseline, even though GA performs better than the baseline.
